@@ -1,0 +1,157 @@
+﻿<delta id="0">
+  <operations>
+    <operation type="insert">
+      <ResourceDescriptions count="22">
+        <ResourceDescription>
+          <id gid="0x00000001ffffffff" type="TERMINAL" />
+          <Properties />
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000001fffffffe" type="TERMINAL" />
+          <Properties />
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000001fffffffd" type="TERMINAL" />
+          <Properties />
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000002ffffffff" type="REGULATINGCONTROL" />
+          <Properties>
+            <Property id="REGULATINGCONTROL_DISCRETE" value="1" />
+            <Property id="REGULATINGCONTROL_MODE" value="admittance" />
+            <Property id="REGULATINGCONTROL_MONITOREDPHASE" value="BCN" />
+            <Property id="REGULATINGCONTROL_TARGETRANGE" value="5.3" />
+            <Property id="REGULATINGCONTROL_TARGETVALUE" value="3.5" />
+            <Property id="REGULATINGCONTROL_TERMINAL" value="0x00000001ffffffff" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000002fffffffe" type="REGULATINGCONTROL" />
+          <Properties>
+            <Property id="REGULATINGCONTROL_DISCRETE" value="0" />
+            <Property id="REGULATINGCONTROL_MODE" value="currentFlow" />
+            <Property id="REGULATINGCONTROL_MONITOREDPHASE" value="BN" />
+            <Property id="REGULATINGCONTROL_TARGETRANGE" value="16.5" />
+            <Property id="REGULATINGCONTROL_TARGETVALUE" value="79.4" />
+            <Property id="REGULATINGCONTROL_TERMINAL" value="0x00000001fffffffd" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000003ffffffff" type="STATICVARCOMPENSATOR" />
+          <Properties>
+            <Property id="EQUIPMENT_AGGREGATE" value="1" />
+            <Property id="EQUIPMENT_NORMALLYLNSERVICE" value="1" />
+            <Property id="REGULATINGCONDEQ_REGULATINGCONTROL" value="0x00000002ffffffff" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000003fffffffe" type="STATICVARCOMPENSATOR" />
+          <Properties>
+            <Property id="EQUIPMENT_AGGREGATE" value="0" />
+            <Property id="EQUIPMENT_NORMALLYLNSERVICE" value="0" />
+            <Property id="REGULATINGCONDEQ_REGULATINGCONTROL" value="0x00000002fffffffe" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000003fffffffd" type="STATICVARCOMPENSATOR" />
+          <Properties>
+            <Property id="EQUIPMENT_AGGREGATE" value="0" />
+            <Property id="EQUIPMENT_NORMALLYLNSERVICE" value="1" />
+            <Property id="REGULATINGCONDEQ_REGULATINGCONTROL" value="0x00000002ffffffff" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000004ffffffff" type="SHUNTCOMPENSATOR" />
+          <Properties>
+            <Property id="EQUIPMENT_AGGREGATE" value="1" />
+            <Property id="EQUIPMENT_NORMALLYLNSERVICE" value="0" />
+            <Property id="REGULATINGCONDEQ_REGULATINGCONTROL" value="0x00000002fffffffe" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000004fffffffe" type="SHUNTCOMPENSATOR" />
+          <Properties>
+            <Property id="EQUIPMENT_AGGREGATE" value="0" />
+            <Property id="EQUIPMENT_NORMALLYLNSERVICE" value="1" />
+            <Property id="REGULATINGCONDEQ_REGULATINGCONTROL" value="0x00000002fffffffe" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000004fffffffd" type="SHUNTCOMPENSATOR" />
+          <Properties>
+            <Property id="EQUIPMENT_AGGREGATE" value="0" />
+            <Property id="EQUIPMENT_NORMALLYLNSERVICE" value="0" />
+            <Property id="REGULATINGCONDEQ_REGULATINGCONTROL" value="0x00000002ffffffff" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000005ffffffff" type="REACTIVECAPABILITYCURVE" />
+          <Properties />
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000005fffffffe" type="REACTIVECAPABILITYCURVE" />
+          <Properties />
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000005fffffffd" type="REACTIVECAPABILITYCURVE" />
+          <Properties />
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000005fffffffc" type="REACTIVECAPABILITYCURVE" />
+          <Properties />
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000006ffffffff" type="SYNCHRONOUSMACHINE" />
+          <Properties>
+            <Property id="EQUIPMENT_AGGREGATE" value="1" />
+            <Property id="EQUIPMENT_NORMALLYLNSERVICE" value="1" />
+            <Property id="REGULATINGCONDEQ_REGULATINGCONTROL" value="0x00000002ffffffff" />
+            <Property id="SYNCHRONOUSMACHINE_REACTIVECAPABILITYCURVES" value="0x00000005fffffffe" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000006fffffffe" type="SYNCHRONOUSMACHINE" />
+          <Properties>
+            <Property id="EQUIPMENT_AGGREGATE" value="0" />
+            <Property id="EQUIPMENT_NORMALLYLNSERVICE" value="0" />
+            <Property id="REGULATINGCONDEQ_REGULATINGCONTROL" value="0x00000002fffffffe" />
+            <Property id="SYNCHRONOUSMACHINE_REACTIVECAPABILITYCURVES" value="0x00000005ffffffff" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000006fffffffd" type="SYNCHRONOUSMACHINE" />
+          <Properties>
+            <Property id="EQUIPMENT_AGGREGATE" value="1" />
+            <Property id="EQUIPMENT_NORMALLYLNSERVICE" value="0" />
+            <Property id="REGULATINGCONDEQ_REGULATINGCONTROL" value="0x00000002ffffffff" />
+            <Property id="SYNCHRONOUSMACHINE_REACTIVECAPABILITYCURVES" value="0x00000005fffffffd" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000007ffffffff" type="CONTROL" />
+          <Properties>
+            <Property id="CONTROL_REGULATINGCONDEQ" value="0x00000003ffffffff" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000007fffffffe" type="CONTROL" />
+          <Properties>
+            <Property id="CONTROL_REGULATINGCONDEQ" value="0x00000004fffffffe" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000007fffffffd" type="CONTROL" />
+          <Properties>
+            <Property id="CONTROL_REGULATINGCONDEQ" value="0x00000006ffffffff" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000007fffffffc" type="CONTROL" />
+          <Properties>
+            <Property id="CONTROL_REGULATINGCONDEQ" value="0x00000003fffffffd" />
+          </Properties>
+        </ResourceDescription>
+      </ResourceDescriptions>
+    </operation>
+  </operations>
+</delta>

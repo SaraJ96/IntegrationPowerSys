@@ -1,0 +1,100 @@
+6.6.2021. 22:13:17 : [GDAQUERY] GetValues method failed for TERMINAL.
+	Could not connect to net.tcp://localhost:10000/NetworkModelService/GDA/. The connection attempt lasted for a time span of 00:00:04.0053659. TCP error code 10061: No connection could be made because the target machine actively refused it 127.0.0.1:10000. 
+6.6.2021. 22:13:54 : Getting extent values method started.
+6.6.2021. 22:13:58 : Getting extent values method failed for TERMINAL.
+	Could not connect to net.tcp://localhost:10000/NetworkModelService/GDA/. The connection attempt lasted for a time span of 00:00:04.0070790. TCP error code 10061: No connection could be made because the target machine actively refused it 127.0.0.1:10000. 
+6.6.2021. 22:25:41 : [GDAQUERY] GetValues method failed for TERMINAL.
+	Could not connect to net.tcp://localhost:10000/NetworkModelService/GDA/. The connection attempt lasted for a time span of 00:00:04.0109197. TCP error code 10061: No connection could be made because the target machine actively refused it 127.0.0.1:10000. 
+6.6.2021. 22:26:12 : Getting extent values method started.
+6.6.2021. 22:26:16 : Getting extent values method failed for TERMINAL.
+	Could not connect to net.tcp://localhost:10000/NetworkModelService/GDA/. The connection attempt lasted for a time span of 00:00:04.0107397. TCP error code 10061: No connection could be made because the target machine actively refused it 127.0.0.1:10000. 
+27/10/2022 20:59:22 : Getting values method started.
+27/10/2022 20:59:22 : Getting values method successfully finished.
+27/10/2022 20:59:40 : Getting values method started.
+27/10/2022 20:59:40 : Getting values method successfully finished.
+27/10/2022 20:59:49 : Getting values method started.
+27/10/2022 20:59:49 : Getting values method successfully finished.
+27/10/2022 20:59:59 : Getting values method started.
+27/10/2022 20:59:59 : Getting values method successfully finished.
+27/10/2022 21:00:05 : Getting values method started.
+27/10/2022 21:00:05 : Getting values method successfully finished.
+27/10/2022 21:00:10 : Getting values method started.
+27/10/2022 21:00:10 : Getting values method successfully finished.
+27/10/2022 21:00:19 : Getting extent values method started.
+27/10/2022 21:00:19 : Getting extent values method successfully finished.
+27/10/2022 21:00:32 : Getting related values method started.
+27/10/2022 21:00:32 : Getting related values method successfully finished.
+27/10/2022 21:00:48 : Getting related values method started.
+27/10/2022 21:00:48 : Getting related values method successfully finished.
+27/10/2022 21:00:50 : Getting related values method started.
+27/10/2022 21:00:50 : Getting related values method successfully finished.
+27/10/2022 21:00:53 : Getting related values method started.
+27/10/2022 21:00:53 : Getting related values method successfully finished.
+27/10/2022 21:01:02 : Getting related values method started.
+27/10/2022 21:01:02 : Getting related values method successfully finished.
+27/10/2022 21:01:18 : Getting related values method started.
+27/10/2022 21:01:18 : Getting related values method successfully finished.
+27/10/2022 21:01:40 : Getting related values method started.
+27/10/2022 21:01:40 : Getting related values method successfully finished.
+27/10/2022 21:01:51 : Getting related values method started.
+27/10/2022 21:01:51 : Getting related values method successfully finished.
+27/10/2022 21:02:01 : Getting related values method started.
+27/10/2022 21:02:01 : Getting related values method successfully finished.
+06/11/2022 19:17:11 : Getting values method started.
+06/11/2022 19:17:11 : Getting values method successfully finished.
+06/11/2022 19:20:19 : Getting values method started.
+06/11/2022 19:20:19 : Getting values method successfully finished.
+06/11/2022 19:22:10 : Getting values method started.
+06/11/2022 19:22:10 : Getting values method successfully finished.
+06/11/2022 19:31:40 : Getting values method started.
+06/11/2022 19:31:40 : Getting values method successfully finished.
+06/11/2022 19:32:14 : Getting values method started.
+06/11/2022 19:32:14 : Getting values method successfully finished.
+06/11/2022 19:35:49 : Getting values method started.
+06/11/2022 19:35:49 : Getting values method successfully finished.
+06/11/2022 19:40:31 : Getting related values method started.
+06/11/2022 19:40:31 : Getting related values method successfully finished.
+06/11/2022 19:40:43 : Getting related values method started.
+06/11/2022 19:40:43 : Getting related values method successfully finished.
+06/11/2022 19:40:47 : Getting related values method started.
+06/11/2022 19:40:47 : Getting related values method successfully finished.
+06/11/2022 19:40:57 : Getting related values method started.
+06/11/2022 19:40:57 : Getting related values method successfully finished.
+06/11/2022 19:41:07 : Getting related values method started.
+06/11/2022 19:41:07 : Getting related values method successfully finished.
+06/11/2022 19:41:13 : Getting related values method started.
+06/11/2022 19:41:13 : Getting related values method successfully finished.
+06/11/2022 19:41:24 : Getting related values method started.
+06/11/2022 19:41:24 : Getting related values method successfully finished.
+06/11/2022 19:41:32 : Getting extent values method started.
+06/11/2022 19:41:32 : Getting extent values method successfully finished.
+03/12/2022 18:58:55 : Getting values method started.
+03/12/2022 18:58:55 : Getting values method successfully finished.
+03/12/2022 18:59:05 : Getting values method started.
+03/12/2022 18:59:05 : Getting values method successfully finished.
+03/12/2022 18:59:18 : Getting values method started.
+03/12/2022 18:59:18 : Getting values method successfully finished.
+03/12/2022 18:59:33 : Getting values method started.
+03/12/2022 18:59:33 : Getting values method successfully finished.
+03/12/2022 18:59:39 : Getting values method started.
+03/12/2022 18:59:39 : Getting values method successfully finished.
+03/12/2022 18:59:46 : Getting extent values method started.
+03/12/2022 18:59:46 : Getting extent values method successfully finished.
+03/12/2022 18:59:56 : Getting extent values method started.
+03/12/2022 18:59:56 : Getting extent values method successfully finished.
+03/12/2022 19:00:10 : Getting extent values method started.
+03/12/2022 19:00:10 : Getting extent values method successfully finished.
+03/12/2022 19:00:24 : Getting related values method started.
+03/12/2022 19:00:24 : Getting related values method successfully finished.
+03/12/2022 19:00:40 : Getting related values method started.
+03/12/2022 19:00:40 : Getting related values method successfully finished.
+03/12/2022 19:00:55 : Getting related values method started.
+03/12/2022 19:00:55 : Getting related values method successfully finished.
+03/12/2022 19:01:06 : Getting related values method started.
+03/12/2022 19:01:06 : Getting related values method successfully finished.
+22/01/2023 15:16:10 : Getting values method started.
+22/01/2023 15:16:10 : Getting values method successfully finished.
+22/01/2023 15:16:28 : Getting values method started.
+22/01/2023 15:16:28 : Getting values method successfully finished.
+22/01/2023 15:16:50 : Getting values method started.
+22/01/2023 15:16:50 : Getting values method successfully finished.

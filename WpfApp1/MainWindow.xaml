@@ -1,0 +1,79 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="397.18" Width="810.4" FontFamily="Calibri" Background="LightCoral" FontStyle="Italic">
+    <Grid>
+
+        <TabControl x:Name="TabControl" Background="LightCoral">
+            <TabItem Header="GetValues">
+                <Grid Background="LightCoral">
+                    <Label Content="GID:" Margin="10,10,729.6,289.4"/>
+                    <ComboBox x:Name="comboBoxGid" ItemStringFormat="0x{0:x16}" ItemsSource="{Binding Path=ComboBoxGid1}" SelectedItem="{Binding Path=Gid1}" Margin="68,13,511.6,299.4"/>
+                    <Label Content="PROPERTY:" Margin="10,54,702.6,247.4"/>
+                    <ListBox x:Name="listBox1" ItemsSource="{Binding Path=Property1, UpdateSourceTrigger=PropertyChanged}" SelectionMode="Multiple" Margin="10,96,511.6,48.4">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Grid>
+                                    <CheckBox Content="{Binding}" IsChecked="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ListBoxItem}}, Path=IsSelected, Mode=TwoWay}"/>
+                                </Grid>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ListBox>
+                    <Label Content="RESULT:" Margin="291,13,441.6,289.4"/>
+                    <TextBox x:Name="result1" ScrollViewer.CanContentScroll="True" IsReadOnly="True"  TextWrapping="Wrap" Text="" Margin="291,54,9.6,48.4"/>
+                    <Button Background="LightGreen" x:Name="button1" Content="GetValues" Margin="668,295,9.6,10.4" RenderTransformOrigin="0.304,0.484" Click="Button1_Click"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="GetExtendValues">
+                <Grid>
+                    <Label Content="MODEL CODE:" Margin="10,14,685.6,294.4"/>
+                    <ComboBox x:Name="comboBoxModelCode" ItemsSource="{Binding Path=ComboBoxModelCode}" SelectedItem="{Binding Path=ModelCode2}" Margin="112,14,498.6,294.4" RenderTransformOrigin="0.83,0.44"/>
+                    <Label Content="PROPERTY:" Margin="10,49,690.6,255.4" />
+                    <ListBox x:Name="listBox2" ItemsSource="{Binding Path=Property2, UpdateSourceTrigger=PropertyChanged}" SelectionMode="Multiple" Margin="10,88,498.6,48.4">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Grid>
+                                    <CheckBox Content="{Binding}" IsChecked="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ListBoxItem}}, Path=IsSelected, Mode=TwoWay}"/>
+                                </Grid>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ListBox>
+                    <Label Content="RESULT:" Margin="304,18,412.6,289.4"/>
+                    <TextBox x:Name="result2" ScrollViewer.CanContentScroll="True" IsReadOnly="True"  TextWrapping="Wrap" Text="" Margin="304,54,9.6,48.4"/>
+                    <Button Background="LightGreen" x:Name="button2" Content="GetExtendValues" Margin="660,299,9.6,10.4" RenderTransformOrigin="0.304,0.484" Click="Button2_Click"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="GetRetaledValues">
+                <Grid>
+                    <Label Content="GID:" Margin="10,10,721.6,297.2"/>
+                    <ComboBox x:Name="comboBoxGid3" ItemStringFormat="0x{0:x16}" ItemsSource="{Binding Path=ComboBoxGid3}" SelectedItem="{Binding Path=Gid3}" Margin="93,10,507.6,298.4" RenderTransformOrigin="0.83,0.44"/>
+                    <Label Content="PropertyID:" Margin="10,45,700.6,259.2"/>
+                    <ComboBox x:Name="comboBoxProperty3" ItemsSource="{Binding Path=ComboBoxPropertyID}" SelectedItem="{Binding Path=PropertyID}" Margin="93,45,507.6,262.4"/>
+                    <Label Content="TYPE:" Margin="10,80,721.6,228.2"/>
+                    <ComboBox x:Name="comboBoxType3" ItemsSource="{Binding Path=ComboBoxType}" SelectedItem="{Binding Path=Type}" Margin="93,81,507.6,228.4"/>
+                    <Label Content="PROPERTY:" Margin="10,111,700.6,192.4"/>
+                    <ListBox x:Name="listBox3" ItemsSource="{Binding Path=Property3, UpdateSourceTrigger=PropertyChanged}" SelectionMode="Multiple" Margin="10,146,507.6,49.2">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Grid>
+                                    <CheckBox Content="{Binding}" IsChecked="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type ListBoxItem}}, Path=IsSelected, Mode=TwoWay}"/>
+                                </Grid>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ListBox>
+                    <Label Content="RESULT:" Margin="304,10,412.6,297.2"/>
+                    <TextBox x:Name="result3" ScrollViewer.CanContentScroll="True" IsReadOnly="True"  TextWrapping="Wrap" Text="" Margin="304,54,9.6,49.2"/>
+                    <Button Background="LightGreen" x:Name="button3" Content="GetRelatedValues" Margin="660,299,9.6,10.4" RenderTransformOrigin="0.304,0.484" Click="Button3_Click" />
+                </Grid>
+            </TabItem>
+
+
+
+
+        </TabControl>
+    </Grid>
+</Window>
